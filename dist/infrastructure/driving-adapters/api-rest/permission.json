@@ -1,0 +1,39 @@
+{
+    "super_admin": "super_admin",
+    "user": {
+        "user_view": "user_view",
+        "user_create": "user_create",
+        "user_edit": "user_edit",
+        "user_delete": "user_delete"
+    },
+    "provider": {
+        "provider_view": "provider_view",
+        "provider_create": "provider_create",
+        "provider_edit": "provider_edit",
+        "provider_delete": "provider_delete"
+    },
+    "entity": {
+        "entity_view": "entity_view",
+        "entity_create": "entity_create",
+        "entity_edit": "entity_edit",
+        "entity_delete": "entity_delete"
+    },
+    "receipt": {
+        "receipt_view": "receipt_view",
+        "receipt_create": "receipt_create",
+        "receipt_edit": "receipt_edit",
+        "receipt_delete": "receipt_delete"
+    },
+    "production_stock": {
+        "production_stock_view": "production_stock_view",
+        "production_stock_create": "production_stock_create",
+        "production_stock_edit": "production_stock_edit",
+        "production_stock_delete": "production_stock_delete"
+    },
+    "hall": {
+        "hall_view": "hall_view",
+        "hall_create": "hall_create",
+        "hall_edit": "hall_edit",
+        "hall_delete": "hall_delete"
+    }
+}
