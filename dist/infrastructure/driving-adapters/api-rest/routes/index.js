@@ -15,10 +15,10 @@ const PermissionNotAvailable_exception_1 = require("../../../../domain/exception
 const MissingProperty_exception_1 = require("../../../../domain/exceptions/common/MissingProperty.exception");
 // import { Exception } from '@domain/exceptions/Exception'
 const route = (0, express_1.Router)();
-route.use('/users', user_routes_1.default);
-route.use('/login', login_routes_1.default);
-route.use('/position', position_routes_1.default);
-route.use('/provider', provider_routes_1.default);
+route.use('/api/users', user_routes_1.default);
+route.use('/api/login', login_routes_1.default);
+route.use('/api/position', position_routes_1.default);
+route.use('/api/provider', provider_routes_1.default);
 route.use((err, req, res, next) => {
     if (err instanceof UserAlreadyExist_exception_1.UserAlreadyExistException) {
         res.status(400).json({

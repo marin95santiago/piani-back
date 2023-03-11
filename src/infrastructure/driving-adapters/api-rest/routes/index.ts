@@ -12,10 +12,10 @@ import { MissingPropertyException } from '../../../../domain/exceptions/common/M
 
 const route = Router()
 
-route.use('/users', userRoutes)
-route.use('/login', loginRoutes)
-route.use('/position', positionRoutes)
-route.use('/provider', providerRoutes)
+route.use('/api/users', userRoutes)
+route.use('/api/login', loginRoutes)
+route.use('/api/position', positionRoutes)
+route.use('/api/provider', providerRoutes)
 
 route.use((err: Error, req: Request, res: Response, next: NextFunction) => {
   if (err instanceof UserAlreadyExistException) {
